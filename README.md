@@ -10,7 +10,6 @@ https://data.similarweb.com/api/v1/data?domain=github.com
 - Click the "Load unpacked" button and select the directory containing these files.
 
 
-Based on the internal API of Similarweb which doesn't need any Api key - https://data.similarweb.com/api/v1/data?domain=github.com
 - Used Cloudflare worker to create a reverse proxy from this API url so each request will be from a new IP. 
 - Unlmited Data
 
