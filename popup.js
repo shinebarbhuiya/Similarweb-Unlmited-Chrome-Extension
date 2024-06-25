@@ -69,8 +69,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             <div class="mt-4 text-xl border-2 border-dashed p-4">
                                 <p><strong>Bounce Rate:</strong> ${(data.Engagments.BounceRate * 100).toFixed(2)}%</p>
                                 <p><strong>Pages per Visit:</strong> ${Math.round(data.Engagments.PagePerVisit * 10) / 10}</p>
-                                <p><strong>Monthly Visits:</strong> <span class="inline-block font-bold bg-green-100 px-4 py-2 text-xl">${formatNumber(data.Engagments.Visits)} </span> </p>
-                                <p><strong>Per Month Earnings:</strong> <span class="inline-block font-bold bg-orange-100 px-4 py-2 text-xl"> $${estimateEarnings(data.Engagments.Visits)}</span> </p>
+                                <p><strong>Monthly Visits:</strong> <span class="inline-block font-bold bg-green-100 px-4  text-xl">${formatNumber(data.Engagments.Visits)} </span> </p>
+                                <p><strong>Per Month Earnings:</strong> <span class="inline-block font-bold bg-orange-100 px-4 text-xl"> $${estimateEarnings(data.Engagments.Visits)}</span> </p>
                                 <p><strong>Avg. Visit Duration:</strong> ${formatDuration(data.Engagments.TimeOnSite)}</p>
                             </div>
                         </div>
