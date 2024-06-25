@@ -14,4 +14,4 @@ https://data.similarweb.com/api/v1/data?domain=github.com
 - Unlmited Data
 
 
-The styling currently sucks becasuse I didn't want to spend too much time on styling. If it works, it works.
+The styling currently sucks because I didn't want to spend too much time on styling. If it works, it works.
